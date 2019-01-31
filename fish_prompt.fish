@@ -72,7 +72,7 @@ function fish_prompt
             set git_color (set_color green)
 
             if git_is_dirty
-                set git_glyph "$git_color$git_glyph$color_error$git_glyph"
+                set git_glyph "$git_color$git_glyph"
                 set git_color "$color_error"
             end
 
